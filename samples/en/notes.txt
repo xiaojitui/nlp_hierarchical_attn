@@ -1,0 +1,14 @@
+Datasets are here:
+https://github.com/openai/generating-reviews-discovering-sentiment/tree/master/data
+https://github.com/adeshpande3/LSTM-Sentiment-Analysis
+
+Download and save:
+(1)
+train_binary_sent.csv in sen_level
+test_binary_sent.csv in sen_level
+dev_binary_sent.csv in sen_level
+(2)
+neg.pkl in doc_level
+pos.pkl in doc_level
+
+'convert.py' is used to convert doc_level data to txt files. 
