@@ -1,0 +1,3 @@
+Data is here: 
+https://github.com/BUPTLdy/Sentiment-Analysis/tree/master/data
+Download neg.xls and pos.xls, then put them here
