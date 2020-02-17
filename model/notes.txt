@@ -1,0 +1,3 @@
+'contractions' should be a pickle file. 
+Use the format as shown in the txt, and convert your contraction mapping to 'contractions.pkl'.
+
