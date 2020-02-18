@@ -1,7 +1,6 @@
 # nlp_hierarchical_attn
 
 Hierarchical Attention Networks to analyze English and Chinese documents. 
-
 <br><br>
 ### Basic Algorithm:
 The repo provides hierarchical attention networks to analyze documents in English and in Chinese. The basic algorithm is:
@@ -13,7 +12,6 @@ The repo provides hierarchical attention networks to analyze documents in Englis
 *note: this is optional, the sentence scores can be concatenated to sentence embedding, as the input for the next hierarchy.
 
 The final target of the models can be document classification (e.g. predict if a review is positive/negtive) or regression (e.g. predict sale prices based on news and reports) problems. You can use the sample scripts and modify final layers of the models, or build your own models on the top of the final outputs. 
-
 <br><br>
 ### Variants of hierarchical attention networks
 The repo provides three different networks of using hierarchical structure and embeddings.
@@ -22,13 +20,11 @@ The repo provides three different networks of using hierarchical structure and e
 - (3) another way is to cut sentences into 'phrases' (instead of words/chars), use the embedding of the first token to represent the phrase, then go to sentence level, then go to document level. 
 
 Check 'chinese_version' and 'english_version' folders for details 
-
 <br><br>
 ### Embeddings:
 - If use BERT to get embeddings, check the repo 'nlp_bert_embedding' for details.
 - If use Glove to get embeddings, need to download embedding files 'glove.840B.300d.zip' (or other dimension based on your requirments) 
 - If use other pre-trained embeddings, please modify the file paths in the scripts
-
 <br><br>
 ### Datasets:
 English datasets are put in './sample/en' folder; Chinese datasets are put in './sample/ch' folder.
